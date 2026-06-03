@@ -8,7 +8,7 @@ function subNumber() {
   let num = parseInt(numberEl.textContent || "0", 10);
   if (num <= 0) {
     messageEl.textContent = "You cannot decrement any further.";
-    setTimeout(() => {numberEl.textContent = ""}, 1000);
+    setTimeout(() => {messageEl.textContent = ""}, 1000);
   } else {
     numberEl.textContent = num - 1;
   }
