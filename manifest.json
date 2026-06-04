@@ -1,0 +1,20 @@
+{
+  "name": "Nums-add-sub",
+  "short-name": "Numsas",
+  "start-url": "/Nums-add-sub/",
+  "display": "standalone",
+  "background-color": "#ffd700",
+  "theme-color": "#ffd700",
+  "icons": [
+    {
+      "src": "nums-add-sub icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "nums-add-sub icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
