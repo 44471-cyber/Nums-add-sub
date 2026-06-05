@@ -11,9 +11,17 @@ button {
 }
 #add {
     background-color: lightgreen;
+    transition: 0;
+}
+#add:hover {
+    background-color: #65a865;
 }
 #sub {
     background-color: lightblue;
+    transition: 0;
+}
+#sub:hover {
+    background-color: #79939c;
 }
 p {
     font-size: 2rem;
